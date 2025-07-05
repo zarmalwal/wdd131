@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 131: Dynamic Web Fundamentals</title>
+    <link rel="stylesheet" href="styles/base.css" />
+</head>
+
+<body>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span class="highlight">Abdul Wali Zarmalwal</span></h1>
+    </header>
+
+    <nav>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+        <a href="#">Final Project</a>
+    </nav>
+
+    <main>
+        <section class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="bio">
+                    <p>
+                        My name is Abdul Wali Zarmalwal. I was born in Afghanistan and currently live in Toronto,
+                        Canada. I am a student at Brigham Young University - Idaho, enrolled in the WDD 131 course,
+                        which focuses on dynamic web fundamentals.
+                    </p>
+                    <h3>Toronto, Canada</h3>
+                    <hr>
+                    <div class="flag-text">
+                        <figure>
+                            <img src="images/flag.webp" alt="Flag of Canada" style="width:100px;">
+                            <figcaption><em>Official Flag of Canada</em></figcaption>
+                        </figure>
+                        <p>
+                            Toronto is the capital city of the province of Ontario, Canada. It is the most populous city
+                            in Canada and is known for its diverse culture, vibrant arts scene, and iconic landmarks
+                            such as the CN Tower and the Royal Ontario Museum. Toronto is a major financial center and
+                            is home to many multinational corporations. The city is also known for its multicultural
+                            neighborhoods, offering a wide range of cuisines and cultural experiences.
+                        </p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="images/Abdul.jpg" alt="Abdul Wali Zarmalwal" style="max-width:180px;">
+                </div>
+            </div>
+        </section>
+
+        <aside>
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to" target="_blank">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com" target="_blank">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
+                <li><a href="https://w3schools.com" target="_blank">W3 Schools</a></li>
+                <li><a href="https://udemy.com" target="_blank">Udemy</a></li>
+                <li><a href="https://placeholder.com" target="_blank">Image Placeholder</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy;2025 Abdul Wali Zarmalwal, Canada</p>
+        <p class="last-modified">Last Modification: <span id="last-modified"></span></p>
+    </footer>
+    <script>
+        // Simple script to show last modified date
+        document.getElementById('last-modified').textContent = document.lastModified;
+    </script>
+</body>
+
+</html>
