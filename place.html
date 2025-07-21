@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afghanistan Country Page</title>
+    <link rel="stylesheet" href="styles/place.css" />
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Afghanistan</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/landscape3.jpg" media="(min-width: 768px)" />
+                <img src="images/landscape.jpg" alt="Afghanistan landscape" />
+            </picture>
+        </section>
+
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li>Capital: <strong>Kabul</strong></li>
+                <li>Population: <strong>39 million</strong></li>
+                <li>Language: <strong>Dari, Pashto</strong></li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Weather <span class="icon"></span></h2>
+            <p>Temperature: <span id="temp">45</span>°F</p>
+            <p>Wind Speed: <span id="speed">5</span> mph</p>
+            <p>Wind Chill: <span id="chill">loading...</span></p>
+            <img src="images/suny.png" alt="Sunny weather icon" class="mobile-icon" />
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Abdul Wali Zarmalwal | Last Updated: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
